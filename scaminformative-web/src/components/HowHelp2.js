@@ -1,9 +1,9 @@
 import React from "react";
 
 import'../components/HowHelp.css';
-import image1 from "../images/registerComplaint.png";
-import image2 from "../images/unity.png";
-import image3 from "../images/justice.png";
+import image1 from "../images/complain.png";
+import image2 from "../images/unity1.png";
+import image3 from "../images/justice1.png";
 
 
 function HowHelp() {
@@ -19,7 +19,7 @@ function HowHelp() {
             <div className="col-10 mx-auto">
               <div className="row" >
               <div className="col-md-7  pt-lg-0 orer-2 order-lg-1 d-flex justify-content-center flex-column home-text1">
-                <h2 className="sub-text" style={{color:'#EF7820'}}>
+                <h2 className="sub-text" style={{color:'#2D5767'}}>
                     <strong>
                     Register your Scam      
                     </strong>
@@ -33,7 +33,7 @@ function HowHelp() {
                   
                   <div className="mt-4 app-button">
                    <a href="" target="_blank">
-                   <button className="btn btn-default  mr-2" style={{backgroundColor:'#EF7820',color:'white'}}>Report your Scam</button>
+                   <button className="btn btn-default  mr-2" style={{backgroundColor:'#2D5767',color:'white'}}>Report your Scam</button>
                     </a>
                  </div>
                 </div>
@@ -60,7 +60,7 @@ function HowHelp() {
             <div className="col-10 mx-auto">
               <div className="row" >
               <div className="col-md-7 pt-5 pt-lg-0 orer-2 order-lg-1 d-flex justify-content-center flex-column home-text">
-                <h1  style={{color:'#EF7820'}}>
+                <h1  style={{color:'#2D5767'}}>
                     <strong>
                     Collecting proofs nation wide    
                     </strong>
@@ -97,7 +97,7 @@ function HowHelp() {
         <div className="col-10 mx-auto">
           <div className="row" >
           <div className="col-md-7 pt-5 pt-lg-0 orer-2 order-lg-1 d-flex justify-content-center flex-column home-text">
-            <h1  style={{color:'#EF7820'}}>
+            <h1  style={{color:'#2D5767'}}>
                 <strong>
                 Fight against scams 
                 </strong>

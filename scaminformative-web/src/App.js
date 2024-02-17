@@ -2,6 +2,7 @@
 import Home from './components/Home.js'
 import Navbar from './components/Navbar.js';
 import HowHelp from './components/HowHelp.js';
+import HowHelp2 from './components/HowHelp2.js';
 
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
    <Navbar/>
    <Home/>
    <HowHelp/>
-
+   <HowHelp2/>
+   
    </>
   );
 }
