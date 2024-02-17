@@ -9,7 +9,6 @@ html, body {
 
   .page-text{
     /* margin-top: 3rem; */
-    text-align: center;
     font-weight: bold;
 }
 
@@ -63,7 +62,7 @@ html, body {
      }
      
     .page-text {
-        text-align: center;
+        
         margin-top: 2rem;
     }
      

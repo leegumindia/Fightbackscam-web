@@ -9,8 +9,8 @@ import image3 from "../images/justice1.png";
 function HowHelp() {
    return (
     <>
-     <div>
-         <h1 className="page-text" style={{color:'#484646'}}>How can we help you?</h1> 
+     <div className="col-10 mx-auto">
+         <h1 className="page-text pt-3" style={{textAlign:'left', color:'#484646'}}>How can we help you?</h1> 
         </div>
      <section  id="header" className="d-flex align-items-center ">
     

@@ -13,14 +13,15 @@ function App() {
               <div className="row">
                 <div
                   data-aos="slide-up"
-                  className="col-md-7 pt-5  d-flex justify-content-center flex-column home"
+                  className="col-md-7 pt-2 d-flex justify-content-center flex-column home"
                 >
-                  <div className="col-md-7 pt-5  d-flex justify-content-center flex-row">
+                  <div className=" d-flex flex-row">
                     <h1 style={{ color: "black" }}>
                       <strong>#F</strong>
                     </h1>
                     <img
                       src={fist_navy}
+                      style={{height:88}}
                       className="img-fluid sm:w-screen lg:w-screen"
                       alt="i"
                     />
