@@ -1,0 +1,67 @@
+ 
+html, body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative
+  }
+
+
+ 
+
+.home h1{
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+
+.text-content{
+    font-size: 1.7rem;
+    font-weight: 00;
+    margin-top: 1rem;
+}
+
+.content{
+    font-size: 1rem;
+}
+
+.sub-content{
+    font-size: 2rem;
+    margin-top: 0.5rem;
+
+}
+.app-button{
+    display: flex;
+}
+
+
+@media only screen and (min-width:320px) and (max-width:480px){
+     .home h1{
+        text-align: center;
+        font-size: 2rem;
+        margin-top: 1rem;
+     }
+
+     .text-content{
+        text-align: center;
+        font-size: large;
+     }
+     .content{
+        font-size: large;
+        text-align: center;
+     }
+     .sub-content{
+        font-size: medium;
+        text-align: center;
+    }
+
+    .app-button{
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .btn {
+        font-size: small;
+    }
+    
+     
+}

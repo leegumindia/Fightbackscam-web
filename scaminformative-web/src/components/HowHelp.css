@@ -1,0 +1,59 @@
+ 
+html, body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative
+  }
+
+
+  .page-text{
+    margin-left: 4rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.home-text h2{
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.content{
+    font-size: 1rem;
+    font-weight: 00;
+    margin-top: 1rem;
+}
+
+
+.app-button{
+    display: flex;
+}
+
+
+@media only screen and (min-width:320px) and (max-width:480px){
+     .home-text h2{
+        text-align: center;
+        font-size: 2rem;
+        margin-top: 1rem;
+     }
+     .content{
+        text-align: center;
+        font-size: small;
+     }
+     
+    
+   
+
+    .app-button{
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .btn {
+        font-size: small;
+    }
+    
+     
+}
