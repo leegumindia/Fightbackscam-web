@@ -9,16 +9,17 @@ import image3 from "../images/justice1.png";
 function HowHelp() {
    return (
     <>
-     <div className="col-10 mx-auto">
-         <h1 className="page-text pt-3" style={{textAlign:'left', color:'#484646'}}>How can we help you?</h1> 
+    <section style={{backgroundColor: '#E3F7FF'}} >
+    <div className="mt-3">
+         <h1 className="page-text pt-5" style={{textAlign:'center', color:'#484646'}}>How can we help you?</h1> 
         </div>
-     <section  id="header" className="d-flex align-items-center ">
-    
+     <section   id="header" className="d-flex align-items-center ">
+     
         <div className="container-fluid nav_bg"style={{overflowX:'hidden'}}>
           <div className="row">
             <div className="col-10 mx-auto">
               <div className="row" >
-              <div className="col-md-7  pt-lg-0 orer-2 order-lg-1 d-flex justify-content-center flex-column home-text1">
+              <div className="col-md-7  pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column home-text1">
                 <h2 className="sub-text" style={{color:'#2D5767'}}>
                     <strong>
                     Register your Scam      
@@ -125,6 +126,8 @@ function HowHelp() {
       </div>
     </div>
   </section>
+    </section>
+  
 
 
 

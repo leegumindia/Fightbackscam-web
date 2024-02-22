@@ -13,7 +13,7 @@ function App() {
               <div className="row">
                 <div
                   data-aos="slide-up"
-                  className="col-md-7 pt-2 d-flex justify-content-center flex-column home"
+                  className="col-md-7 pt-3 d-flex justify-content-center flex-column home"
                 >
                   <div className=" d-flex flex-row">
                     <h1 style={{ color: "black" }}>
@@ -44,14 +44,14 @@ function App() {
                     experiencing online fraud can be stressful and overwhelming.
                     You're not alone. <br></br>
                   </h2>
-                  <h3 className=" sub-content" style={{ color: "#488E1B" }}>
+                  <h3 className=" sub-content" style={{ color: '#2D5767' }}>
                     Don't hesitate to reach out!
                   </h3>
                   <div className="mt-4 pb-5 app-button">
                     <a href="" target="_blank">
                       <button
                         className="btn btn-default  mr-2"
-                        style={{ backgroundColor: "#EF7820", color: "white" }}
+                        style={{ backgroundColor: "#2D5767", color: "white" }}
                       >
                         Report your Scam
                       </button>

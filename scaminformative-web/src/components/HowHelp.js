@@ -12,7 +12,7 @@ function HowHelp() {
      <div>
          <h1 className="page-text" style={{color:'#484646'}}>How can we help you?</h1> 
         </div>
-     <section  id="header" className="d-flex align-items-center ">
+     <section id="header" className="d-flex align-items-center ">
     
         <div className="container-fluid nav_bg"style={{overflowX:'hidden'}}>
           <div className="row">
