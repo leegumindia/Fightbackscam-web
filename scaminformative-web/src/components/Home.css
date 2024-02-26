@@ -5,17 +5,17 @@ html, body {
   body {
     position: relative
   }
-
+  
 
  
 
 .home h1{
-    font-size: 3rem;
+    font-size: 3.5rem;
     margin-top: 2rem;
 }
 
 .text-content{
-    font-size: 1.7rem;
+    font-size: 2.5rem;
     font-weight: 00;
     margin-top: 1rem;
 }
@@ -35,16 +35,19 @@ html, body {
 
 
 @media only screen and (min-width:320px) and (max-width:480px){
+    .text-content{
+        font-size: 2rem;
+        text-align: center;
+        }
      .home h1{
         text-align: center;
         font-size: 2rem;
         margin-top: 1rem;
      }
-
-     .text-content{
+     .mandate-text{
         text-align: center;
-        font-size: large;
      }
+   
      .content{
         font-size: large;
         text-align: center;

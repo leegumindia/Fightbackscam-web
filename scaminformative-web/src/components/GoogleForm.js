@@ -2,6 +2,7 @@ import React, { useState,useEffect } from 'react';
 import Modal from 'react-bootstrap/Modal';
 import '../components/GoogleForm.css';
 import "../components/Home.css";
+import "../components/Fonts.css";
 function Modal1() {
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
@@ -12,7 +13,7 @@ function Modal1() {
   return (
     <>
     <div>
-    <button className="btn btn-default  mr-2 " 
+    <button className="btn btn-default roboto-bold mr-2 " 
      style={{ backgroundColor: "#2D5767", color: "white" }}
       onClick={handleShow} >
          Report Fraud Case

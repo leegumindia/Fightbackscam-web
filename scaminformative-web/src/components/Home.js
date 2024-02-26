@@ -2,6 +2,8 @@ import React from "react";
 import { useState } from 'react';
 
 import "../components/Home.css";
+import "../components/Fonts.css";
+
 import Modal1 from './GoogleForm.js'
 import image from "../images/homepage_graphic.png";
 import fist_navy from "../images/fist_navy.png";
@@ -27,7 +29,7 @@ function App() {
                   data-aos="slide-up"
                   className="col-md-7 pt-3 d-flex justify-content-center flex-column home"
                 >
-                  <div className=" d-flex flex-row">
+                  <div className=" d-flex flex-row roboto-black">
                     <h1 style={{ color: "black" }}>
                       <strong>#F</strong>
                     </h1>
@@ -43,10 +45,10 @@ function App() {
                   </div>
                   <br></br>
                   {/* #211b1b colour used previously here was: 595656 */}
-                  <h2 className="text-content" style={{ color: "black" }}>
+                  <h2 className="text-content roboto-medium " style={{ color: "black" }}>
                     Take Action Against Online Fraud: We're Here to Help!
                   </h2>
-                  <h2 className="my-3 content" style={{ color: "black" }}>
+                  <h2 className="my-3 content roboto-regular" style={{ color: "black", fontSize:'1.3rem' }}>
                     Have you been a victim of{" "}
                     <span style={{ fontWeight: "bold" }}>online fraud?</span>{" "}
                     Whether it's a{" "}
@@ -56,15 +58,15 @@ function App() {
                     experiencing online fraud can be stressful and overwhelming.
                     You're not alone. <br></br>
                   </h2>
-                  <h3 className=" sub-content" style={{ color: '#2D5767' }}>
+                  <h3 className=" sub-content roboto-medium" style={{ color: '#2D5767' }}>
                     Don't hesitate to reach out!
                   </h3>
-                  <div className="mt-4 app-button">
+                  <div className="mt-2 app-button">
                    
                     <Modal1></Modal1>
                    
                   </div>
-                  <p style={{color:'red'}}>* In case of a scam, report it immediately</p>
+                  <p className="roboto-regular mandate-text"style={{color:'red'}}>* In case of a scam, report it immediately</p>
                 
                 </div>
                 <div

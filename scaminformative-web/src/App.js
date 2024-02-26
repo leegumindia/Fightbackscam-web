@@ -6,6 +6,7 @@ import HowHelp2 from './components/HowHelp2.js';
 import Scam from './components/TypeOfScams.js';
 import Carousel_page from './components/ScamsCarousel.js';
 import PhoneVerification from './components/Buttontrial.js';
+import Carousal from './components/Caraousal.js';
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
    <HowHelp2/>
    <Scam/>
    <Carousel_page/>
-   <PhoneVerification/>
+   {/* <Carousal/> */}
+
    </>
   );
 }

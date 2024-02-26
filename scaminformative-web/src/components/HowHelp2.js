@@ -1,6 +1,7 @@
 import React from "react";
 
 import'../components/HowHelp2.css';
+import "../components/Fonts.css";
 import image1 from "../images/complain.png";
 import image2 from "../images/unity1.png";
 import image3 from "../images/justice1.png";
@@ -11,7 +12,7 @@ function HowHelp() {
     <>
     <section>
     <div className="mt-3">
-         <h1 className="page-text pt-5" style={{textAlign:'center', color:'#484646'}}>How can we help you?</h1> 
+         <h1 className="page-text roboto-bold pt-5" style={{textAlign:'center', color:'#484646'}}>How can we help you?</h1> 
         </div>
      <section   id="header" className="d-flex align-items-center">
      
@@ -19,24 +20,20 @@ function HowHelp() {
           <div className="row">
             <div className="col-10 mx-auto">
               <div className="row ms-3 me-3">
-              <div className="col-md-7  pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column home-text1">
-                <h2 className="sub-text" style={{color:'#2D5767'}}>
-                    <strong>
+              <div className="col-md-7  pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
+                <h1 className="sub-text roboto-bold" style={{color:'#2D5767'}}>
+                   
                     Register your Scam      
-                    </strong>
-                  </h2>
+                  
+                  </h1>
                 
-                  <p className="my-3 content" style={{color:'black'}}>
+                  <p className="my-3 content roboto-regular" style={{color:'black'}}>
                   Have you or someone you care about been <span style={{fontWeight:'bold'}}>scammed online?</span> 
                   Tell us your story and help others avoid the same <span style={{fontWeight:'bold'}}>fraud</span>. 
                   We're here to listen and learn, so the more details you share, the better we can fight!
                   </p>
                   
-                  <div className="mt-4 app-button">
-                   <a href="" target="_blank">
-                   <button className="btn btn-default  mr-2" style={{backgroundColor:'#2D5767',color:'white'}}>Report your Scam</button>
-                    </a>
-                 </div>
+                  
                 </div>
               <div className="col-lg-5 col-sm-app col-md-5 order-2 order-lg-2 header-img1">
                   <img
@@ -59,14 +56,14 @@ function HowHelp() {
           <div className="row ">
             <div className="col-10 mx-auto">
               <div className="row ms-3 me-3" >
-              <div className="col-md-7 orer-2 order-lg-1 d-flex justify-content-center flex-column home-text">
-                <h1  style={{color:'#2D5767'}}>
-                    <strong>
+              <div className="col-md-7 orer-2 order-lg-1 d-flex justify-content-center flex-column ">
+                <h1 className="sub-text roboto-bold" style={{color:'#2D5767'}}>
+                    
                     Collecting proofs nation wide    
-                    </strong>
+                   
                   </h1>
                 
-                  <p className="my-3 content" style={{color:'black'}}>
+                  <p className="my-3 content robot-regular" style={{color:'black'}}>
                   Our team is actively <span style={{fontWeight:'bold'}}>collecting evidence from across India</span> to build strong cases<br></br>
                   against scammers. By submitting your proofs, you contribute to our collective <br></br>
                   effort to combat fraud
@@ -96,11 +93,9 @@ function HowHelp() {
       <div className="row">
         <div className="col-10 mx-auto">
           <div className="row ms-3 me-3" >
-          <div className="col-md-7 orer-2 order-lg-1 d-flex justify-content-center flex-column home-text">
-            <h1  style={{color:'#2D5767'}}>
-                <strong>
-                Fight against scams 
-                </strong>
+          <div className="col-md-7 orer-2 order-lg-1 d-flex justify-content-center flex-column">
+            <h1 className="subt-text roboto-bold" style={{color:'#2D5767'}}>
+              Fight against scams 
               </h1>
             
               <p className="my-3 content" style={{color:'black'}}>
