@@ -1,9 +1,21 @@
 import React from "react";
+import { useState } from 'react';
 
 import "../components/Home.css";
+import Modal1 from './GoogleForm.js'
 import image from "../images/homepage_graphic.png";
 import fist_navy from "../images/fist_navy.png";
 function App() {
+
+  const [isOpen, setIsOpen] = useState(false);
+
+  const handleOpen = () => {
+    setIsOpen(true);
+  };
+
+  const handleClose = () => {
+    setIsOpen(false);
+  };
   return (
     <>
       <section id="header" className="d-flex align-items-center ">
@@ -47,16 +59,13 @@ function App() {
                   <h3 className=" sub-content" style={{ color: '#2D5767' }}>
                     Don't hesitate to reach out!
                   </h3>
-                  <div className="mt-4 pb-5 app-button">
-                    <a href="" target="_blank">
-                      <button
-                        className="btn btn-default  mr-2"
-                        style={{ backgroundColor: "#2D5767", color: "white" }}
-                      >
-                        Report your Scam
-                      </button>
-                    </a>
+                  <div className="mt-4 app-button">
+                   
+                    <Modal1></Modal1>
+                   
                   </div>
+                  <p style={{color:'red'}}>* In case of a scam, report it immediately</p>
+                
                 </div>
                 <div
                   className="col-lg-5 col-sm-app col-md-5 order-1 order-lg-2 header-img"

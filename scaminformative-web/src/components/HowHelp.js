@@ -10,7 +10,7 @@ function HowHelp() {
    return (
     <>
      <div>
-         <h1 className="page-text" style={{color:'#484646'}}>How can we help you?</h1> 
+         <h1 className="page-text">How can we help you?</h1> 
         </div>
      <section id="header" className="d-flex align-items-center ">
     
@@ -21,7 +21,7 @@ function HowHelp() {
               <div className="col-md-7  pt-lg-0 orer-2 order-lg-1 d-flex justify-content-center flex-column home-text1">
                 <h2 className="sub-text" style={{color:'#EF7820'}}>
                     <strong>
-                    Register your Scam      
+                    Report Fraud Case
                     </strong>
                   </h2>
                 

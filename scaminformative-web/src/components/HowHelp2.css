@@ -34,13 +34,17 @@ html, body {
     display: flex;
 }
 
-.header-img1 img {
-    height: 70%;
-}
-.header-img2 img {
+/*.header-img2 img {
     height: 90%;
     width: 90%;
+} */
+.header-img1, .header-img2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+
 
 
 @media only screen and (min-width:320px) and (max-width:480px){

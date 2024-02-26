@@ -1,6 +1,6 @@
 import React from "react";
 
-import'../components/HowHelp.css';
+import'../components/HowHelp2.css';
 import image1 from "../images/complain.png";
 import image2 from "../images/unity1.png";
 import image3 from "../images/justice1.png";
@@ -9,16 +9,16 @@ import image3 from "../images/justice1.png";
 function HowHelp() {
    return (
     <>
-    <section style={{backgroundColor: '#E3F7FF'}} >
+    <section>
     <div className="mt-3">
          <h1 className="page-text pt-5" style={{textAlign:'center', color:'#484646'}}>How can we help you?</h1> 
         </div>
-     <section   id="header" className="d-flex align-items-center ">
+     <section   id="header" className="d-flex align-items-center">
      
         <div className="container-fluid nav_bg"style={{overflowX:'hidden'}}>
           <div className="row">
             <div className="col-10 mx-auto">
-              <div className="row" >
+              <div className="row ms-3 me-3">
               <div className="col-md-7  pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column home-text1">
                 <h2 className="sub-text" style={{color:'#2D5767'}}>
                     <strong>
@@ -27,9 +27,9 @@ function HowHelp() {
                   </h2>
                 
                   <p className="my-3 content" style={{color:'black'}}>
-                  Have you or someone you care about been <span style={{fontWeight:'bold'}}>scammed online?</span><br></br> 
-                  Tell us your story and help others avoid the same <span style={{fontWeight:'bold'}}>fraud</span>.<br></br> 
-                  We're here to listen and learn, so the more details you share, the better we can fight!  <br></br>
+                  Have you or someone you care about been <span style={{fontWeight:'bold'}}>scammed online?</span> 
+                  Tell us your story and help others avoid the same <span style={{fontWeight:'bold'}}>fraud</span>. 
+                  We're here to listen and learn, so the more details you share, the better we can fight!
                   </p>
                   
                   <div className="mt-4 app-button">
@@ -38,12 +38,10 @@ function HowHelp() {
                     </a>
                  </div>
                 </div>
-              <div className="col-lg-5 col-sm-app col-md-5 order-1 order-lg-2 header-img1"data-aos="zoom-in">
+              <div className="col-lg-5 col-sm-app col-md-5 order-2 order-lg-2 header-img1">
                   <img
                     src={image1}
                     className="img-fluid sm:w-screen lg:w-screen mt-5"
-                    alt="home-img"
-                   
                   />
                 </div>
                
@@ -54,13 +52,14 @@ function HowHelp() {
           </div>
         </div>
       </section>
+    
       <section  id="header" className="d-flex align-items-center ">
     
         <div className="container-fluid nav_bg"style={{overflowX:'hidden'}}>
-          <div className="row">
+          <div className="row ">
             <div className="col-10 mx-auto">
-              <div className="row" >
-              <div className="col-md-7 pt-5 pt-lg-0 orer-2 order-lg-1 d-flex justify-content-center flex-column home-text">
+              <div className="row ms-3 me-3" >
+              <div className="col-md-7 orer-2 order-lg-1 d-flex justify-content-center flex-column home-text">
                 <h1  style={{color:'#2D5767'}}>
                     <strong>
                     Collecting proofs nation wide    
@@ -96,8 +95,8 @@ function HowHelp() {
     <div className="container-fluid nav_bg"style={{overflowX:'hidden'}}>
       <div className="row">
         <div className="col-10 mx-auto">
-          <div className="row" >
-          <div className="col-md-7 pt-5 pt-lg-0 orer-2 order-lg-1 d-flex justify-content-center flex-column home-text">
+          <div className="row ms-3 me-3" >
+          <div className="col-md-7 orer-2 order-lg-1 d-flex justify-content-center flex-column home-text">
             <h1  style={{color:'#2D5767'}}>
                 <strong>
                 Fight against scams 
