@@ -14,7 +14,7 @@ function Modal1() {
     <>
     <div>
     <button className="btn btn-default roboto-bold mr-2 " 
-     style={{ backgroundColor: "#2D5767", color: "white" }}
+     style={{ backgroundColor: "#2D5767", color: "white", width: '10rem',borderRadius: '5rem' }}
       onClick={handleShow} >
          Report Fraud Case
       </button>

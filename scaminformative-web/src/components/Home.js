@@ -20,11 +20,11 @@ function App() {
   };
   return (
     <>
-      <section id="header" className="d-flex align-items-center ">
+      <section id="header" className="d-flex align-items-center mt-5">
         <div className="container-fluid nav_bg" style={{ overflowX: "hidden" }}>
           <div className="row">
             <div className="col-10 mx-auto">
-              <div className="row">
+              <div className="row mt-5">
                 <div
                   data-aos="slide-up"
                   className="col-md-7 pt-3 d-flex justify-content-center flex-column home"
@@ -48,7 +48,7 @@ function App() {
                   <h2 className="text-content roboto-medium " style={{ color: "black" }}>
                     Take Action Against Online Fraud: We're Here to Help!
                   </h2>
-                  <h2 className="my-3 content roboto-regular" style={{ color: "black", fontSize:'1.3rem' }}>
+                  <h2 className="my-3 content roboto-regular" style={{ color: "black", fontSize:'1.2rem' }}>
                     Have you been a victim of{" "}
                     <span style={{ fontWeight: "bold" }}>online fraud?</span>{" "}
                     Whether it's a{" "}
@@ -61,12 +61,12 @@ function App() {
                   <h3 className=" sub-content roboto-medium" style={{ color: '#2D5767' }}>
                     Don't hesitate to reach out!
                   </h3>
-                  <div className="mt-2 app-button">
+                  <div className=" app-button">
                    
                     <Modal1></Modal1>
                    
                   </div>
-                  <p className="roboto-regular mandate-text"style={{color:'red'}}>* In case of a scam, report it immediately</p>
+                  <p className="roboto-regular mt-2 mandate-text"style={{color:'red'}}>* In case of a scam, report it immediately</p>
                 
                 </div>
                 <div
