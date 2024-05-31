@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.37b93afa.css",
+    "main.js": "/static/js/main.9a5326d3.js",
+    "static/js/453.78c7e8d1.chunk.js": "/static/js/453.78c7e8d1.chunk.js",
+    "static/media/Banner 5.png": "/static/media/Banner 5.192cf24c5b2fca90e8b3.png",
+    "static/media/Banner 4.png": "/static/media/Banner 4.bd9878edcf0507175d22.png",
+    "static/media/Banner 2.png": "/static/media/Banner 2.9d24d606f0cf2ed2b579.png",
+    "static/media/Banner 6.png": "/static/media/Banner 6.c456a4b09d0ab040e587.png",
+    "static/media/Banner 3.png": "/static/media/Banner 3.0234a9d6e5d05b8a58ea.png",
+    "static/media/registerComplaint.png": "/static/media/registerComplaint.0f28eb1d1bfebccad754.png",
+    "static/media/Banner1.png": "/static/media/Banner1.6457ed58401879fbef7b.png",
+    "static/media/complain.png": "/static/media/complain.a3acbbfd655e9abef3f6.png",
+    "static/media/homepage_graphic.png": "/static/media/homepage_graphic.a0b9f1ae948ec32d6833.png",
+    "static/media/unity.png": "/static/media/unity.4ee70e54b807aa40b33c.png",
+    "static/media/unity1.png": "/static/media/unity1.dddd72d9537fa8df93ae.png",
+    "static/media/justice.png": "/static/media/justice.91876a9c1232041463a4.png",
+    "static/media/justice1.png": "/static/media/justice1.fa74b5b631d115454fea.png",
+    "static/media/fist_navy.png": "/static/media/fist_navy.8ae03ddcfb152ed6e0df.png",
+    "index.html": "/index.html",
+    "main.37b93afa.css.map": "/static/css/main.37b93afa.css.map",
+    "main.9a5326d3.js.map": "/static/js/main.9a5326d3.js.map",
+    "453.78c7e8d1.chunk.js.map": "/static/js/453.78c7e8d1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37b93afa.css",
+    "static/js/main.9a5326d3.js"
+  ]
+}
