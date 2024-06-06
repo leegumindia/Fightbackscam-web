@@ -11,10 +11,12 @@ function App() {
   const [isOpen, setIsOpen] = useState(false);
 
   const handleOpen = () => {
+    console.log("AKASH RUN - Home Modal open");
     setIsOpen(true);
   };
 
   const handleClose = () => {
+    console.log("AKASH RUN - Home Modal close");
     setIsOpen(false);
   };
   return (
