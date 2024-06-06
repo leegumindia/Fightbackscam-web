@@ -9,7 +9,7 @@ function TypesOfScams() {
       <section className="pt-3 bg-light">
         <div className="container px-5 my-5">
           <div className="text-center">
-            <h2 className="fw-bolder mb-0">Types of Scams</h2>
+            <h2 className="fw-bolder mb-0" style={{color: "#484646"}}>Types of Scams</h2>
           </div>
           <div className="row mt-5">
             <div className="col-sm-12 col-md-4 mb-5">
