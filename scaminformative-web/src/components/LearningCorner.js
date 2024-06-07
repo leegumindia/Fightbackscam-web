@@ -10,7 +10,7 @@ function LearningCorner() {
       <section className="bg-light">
         <div className="container px-5 my-5">
           <div className="text-center">
-            <h2 className="fw-bolder pt-4 ">Learning Corner</h2>
+            <h2 className="fw-bolder pt-4 " style={{color: "#484646"}}>Learning Corner</h2>
           </div>
           <div className="row mt-5">
             <div className="col-sm-12 col-md-4 mb-5">
@@ -46,7 +46,7 @@ function LearningCorner() {
                     class="card-title roboto-black"
                     style={{ fontWeight: "bold" }}
                   >
-                    Don't Get Phished: Quick steps for Online Safety
+                    Don't Get Phished: Stay safe!
                   </h4>
                   <p class="card-text roboto-regular ">
                     To stay safe in the online world, it is important to follow

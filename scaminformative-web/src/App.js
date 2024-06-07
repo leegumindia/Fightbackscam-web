@@ -9,6 +9,7 @@ import LearningCorner from "./components/LearningCorner.js";
 import { analytics, db } from "./config/firebaseConfig.js";
 import { addDoc, collection, doc, setDoc } from "firebase/firestore";
 import { getGoogleAnalyticsClientId } from "firebase/analytics";
+import Footer from "./components/Footer.js";
 
 /**
  * @mode -> 0: Whatsapp, 1: SMS, 2: Call
@@ -71,6 +72,7 @@ export default function App() {
       <HowHelp2 />
       <TypesOfScams />
       <LearningCorner />
+      <Footer/>
     </>
   );
 }
