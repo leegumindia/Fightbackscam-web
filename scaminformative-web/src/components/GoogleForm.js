@@ -5,8 +5,14 @@ import "../components/Home.css";
 import "../components/Fonts.css";
 function Modal1() {
   const [show, setShow] = useState(false);
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+  const handleClose = () => {
+    console.log("AKASH RUN - Gform Modal close");
+    setShow(false);
+  };
+  const handleShow = () => {
+    console.log("AKASH RUN - Gform Modal close");
+    setShow(true);
+  };
 
   return (
     <>
