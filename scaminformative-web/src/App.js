@@ -11,6 +11,7 @@ import { addDoc, collection, doc, setDoc } from "firebase/firestore";
 import { getGoogleAnalyticsClientId } from "firebase/analytics";
 import Footer from "./components/Footer.js";
 import SubscribeSection from "./components/SubscribeSection.js";
+import WarningStrip from "./components/WarningStrip.js";
 
 /**
  * @mode -> 0: Whatsapp, 1: SMS, 2: Call
@@ -68,6 +69,7 @@ export default function App() {
     <>
       {console.log("AKASH RUN outer html")}
       <Navbar />
+      <WarningStrip/>
       <Home />
       <SubscribeSection/>
       {/* <GameBanner /> */}

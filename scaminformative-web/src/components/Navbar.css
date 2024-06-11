@@ -1,0 +1,25 @@
+.button .btn{
+    width: 12rem;
+}
+/* .button{
+    align-items: center;
+    justify-content: center;
+  } */
+
+@media only screen and (min-width:320px) and (max-width:480px){
+  /* .button{
+    align-items: center;
+    justify-content: center;
+  } */
+  .button .btn{
+   height: 2rem;
+   margin-bottom: 1rem;
+   padding-bottom: 2rem;
+   text-align: center;
+   vertical-align: middle;
+}
+   .button{
+    text-align: center;
+   }
+    
+  }
