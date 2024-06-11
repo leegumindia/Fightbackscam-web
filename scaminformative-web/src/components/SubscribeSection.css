@@ -1,0 +1,39 @@
+::placeholder{
+    font-size: small;
+    color: #CDCDCD;
+}
+
+
+.form-group .form-control{
+    width: 15rem;
+}
+
+.form-group .btn{
+    width: 10rem;
+}
+
+
+@media only screen and (min-width:320px) and (max-width:480px){
+  .section-main{
+    align-items: center;
+    justify-content: center;
+  }
+  .section-content{
+    text-align: center;
+  }
+    .form{
+    align-items: center;
+    justify-content: center;
+  }
+    .form-group{
+    display: flex;
+    flex-direction: column;
+   }
+    
+   .form-group .form-control{
+    width: 15rem;
+}
+.form-group .btn{
+    width: 15rem;
+}
+}
