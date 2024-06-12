@@ -4,6 +4,7 @@ import "../components/Fonts.css";
 import Modal1 from "./GoogleForm.js";
 import warning_icon from "../images/warning_icon.png";
 import "../components/Navbar.css";
+
 function Navbar() {
   return (
     <>
@@ -17,18 +18,22 @@ function Navbar() {
         <div className="section-main d-flex flex-row roboto-black mt-2">
                     <img
                       src={warning_icon}
-                      style={{ height: 40 }}
+                      style={{ height: 30 }}
                       className="section-img img-fluid sm:w-screen lg:w-screen"
                       alt="i"
                     /><span style={{paddingLeft:'0.5rem'}}></span>
-                    <h2 className="section-header" style={{ color: "white" }}>
+                    <div>
+                    <h4 className="section-header" style={{ color: "white" }}>
                       <strong>BEWARE of investment scams</strong>
-                    </h2> <br></br>
+                    </h4>
+                    {/* <h5>don't fall into traps (content to be finalised)</h5> */}
+                    </div>
+                    
                   </div>
                 
         </div>
         <div className="col-sm-6 col-lg-2 button"> 
-        <button type="submit" className="btn mt-2" style={{backgroundColor:'#025B72', color:'white', fontWeight:'500', fontSize:'medium'}}>Share on WhatsApp</button>
+        <button type="submit" className="btn" style={{backgroundColor:'#025B72', color:'white', fontWeight:'500', fontSize:'medium'}}>Share on WhatsApp</button>
         {/* <input class="btn btn-primary" type="submit" value="Submit"/> */}
         </div>
      </div>

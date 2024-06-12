@@ -1,3 +1,7 @@
+.button{
+  display: grid;
+  place-items: center;
+}
 .button .btn{
     width: 12rem;
 }

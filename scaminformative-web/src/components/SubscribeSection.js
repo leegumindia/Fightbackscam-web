@@ -2,6 +2,7 @@ import React from "react";
 import graphic from "../images/mobile_notification_graphic.png";
 import notification_bell from "../images/notification_bell.png";
 import "../components/SubscribeSection.css";
+import { IoInformationCircleOutline } from "react-icons/io5";
 export default function SubscribeSection (){
 return (
     <>
@@ -28,6 +29,7 @@ return (
                         {/* <label for="inputPassword2"  class="sr-only">Password</label> */}
                         <input className="form-control" type="tel" id="phone" placeholder="Enter your WhatsApp number"/>
                         <button type="submit" className="btn" style={{backgroundColor:'#941ED9', color:'white', fontWeight:'500'}}>SUBSCRIBE</button>
+                        <IoInformationCircleOutline style={{color:'white'}}/>
                         </div>
                     </form>
         </div>

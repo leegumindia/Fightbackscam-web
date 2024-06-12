@@ -14,9 +14,9 @@ export default function WarningStrip (){
                       className="section-img img-fluid sm:w-screen lg:w-screen"
                       alt="i"
                     /><span style={{paddingLeft:'0.5rem'}}></span> */}
-                    <h2 className="section-header" style={{ color: "white" }}>
+                    <h3 className="section-header" style={{ color: "white" }}>
                       <strong>BEWARE of investment scams</strong>
-                    </h2> <br></br>
+                    </h3> <br></br>
                   </div>
         </div>
         <div className="col-sm-6 col-lg-2">
