@@ -28,8 +28,10 @@ return (
                         <div className="d-flex form-group mb-2">
                         {/* <label for="inputPassword2"  class="sr-only">Password</label> */}
                         <input className="form-control" type="tel" id="phone" placeholder="Enter your WhatsApp number"/>
+                        <div>
                         <button type="submit" className="btn" style={{backgroundColor:'#941ED9', color:'white', fontWeight:'500'}}>SUBSCRIBE</button>
                         <IoInformationCircleOutline style={{color:'white'}}/>
+                        </div>
                         </div>
                     </form>
         </div>

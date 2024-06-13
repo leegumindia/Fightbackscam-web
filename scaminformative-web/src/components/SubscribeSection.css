@@ -38,3 +38,12 @@
     width: 15rem;
 }
 }
+
+@media only screen and (min-width : 1200px) {
+   .form-group {
+    margin-top: 0.5rem;
+   }
+   .section-content{
+    margin-top: 0.5rem;
+   }
+}
